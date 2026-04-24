@@ -1,4 +1,4 @@
-# Trading Bot
+#
 
 A CLI-based RSI mean-reversion paper trading bot written in Rust.
 
