@@ -1,0 +1,23 @@
+[trading]
+symbol = "BTCUSDT"
+initial_balance = 10000.0
+interval = "5m"
+candle_limit = 100
+
+[rsi]
+period = 14
+oversold = 30.0
+overbought = 70.0
+neutral = 50.0
+
+[risk]
+position_size_pct = 0.05
+stop_loss_pct = 0.50
+
+[logging]
+level = "info"
+file = "crypto_bot.log"
+
+[webhook]
+enabled = false
+port = 3030

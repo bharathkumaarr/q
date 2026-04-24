@@ -1,0 +1,40 @@
+[package]
+name = "crypto_bot"
+version = "0.1.0"
+edition = "2021"
+description = "CLI-based RSI mean-reversion crypto paper trading bot"
+
+[dependencies]
+# CLI
+clap = { version = "4", features = ["derive"] }
+
+# Async runtime
+tokio = { version = "1", features = ["full"] }
+
+# HTTP client
+reqwest = { version = "0.11", features = ["json", "rustls-tls"], default-features = false }
+
+# Serialization
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+
+# Config
+toml = "0.8"
+
+# Logging
+tracing = "0.1"
+tracing-subscriber = { version = "0.3", features = ["fmt", "env-filter", "json"] }
+tracing-appender = "0.2"
+
+# CSV for backtesting
+csv = "1"
+
+# Time
+chrono = { version = "0.4", features = ["serde"] }
+
+# HTTP server for webhook
+axum = "0.7"
+
+# Error handling
+anyhow = "1"
+thiserror = "1"
