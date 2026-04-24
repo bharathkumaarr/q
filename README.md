@@ -1,6 +1,6 @@
-# 🤖 Crypto Trading Bot
+# Trading Bot
 
-A CLI-based RSI mean-reversion crypto paper trading bot written in Rust.
+A CLI-based RSI mean-reversion paper trading bot written in Rust.
 
 ## Features
 
@@ -58,26 +58,26 @@ stop_loss_pct = 0.50
 ### Run Live Paper Trading
 
 ```bash
-cargo run -- run --config config.toml
+cargo run -- -c config.toml run
 ```
 
 With webhook listener:
 
 ```bash
 # Enable webhook in config.toml first: [webhook] enabled = true
-cargo run -- run --config config.toml --webhook
+cargo run -- -c config.toml run --webhook
 ```
 
 ### Backtest
 
 ```bash
-cargo run -- backtest --config config.toml -f data/sample.csv
+cargo run -- -c config.toml backtest -f data/sample.csv
 ```
 
 ### Status
 
 ```bash
-cargo run -- status --config config.toml
+cargo run -- -c config.toml status
 ```
 
 ## Backtesting

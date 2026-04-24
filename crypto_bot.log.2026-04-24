@@ -1,0 +1,18 @@
+2026-04-24T22:09:13.439850Z  INFO crypto_bot: Crypto Bot starting symbol=BTCUSDT
+2026-04-24T22:09:13.441602Z  INFO crypto_bot::engine::runner: Starting backtest candles=101
+2026-04-24T22:09:13.441635Z  INFO crypto_bot::engine::runner: 🔴 SHORT signal rsi="100.00" alloc="500.00"
+2026-04-24T22:09:13.441656Z  INFO crypto_bot::execution::account: 📈 Opened position side=Short price=42870.0 quantity=0.011663167716351761 allocation=500.0
+2026-04-24T22:09:13.441695Z  INFO crypto_bot::engine::runner: 🔒 Close signal rsi="49.73"
+2026-04-24T22:09:13.441718Z  INFO crypto_bot::execution::account: 📉 Closed position side=Short entry=42870.0 exit=42230.0 pnl="7.46" balance="10007.46"
+2026-04-24T22:09:13.441757Z  INFO crypto_bot::engine::runner: 🟢 LONG signal rsi="29.01" alloc="500.37"
+2026-04-24T22:09:13.441777Z  INFO crypto_bot::execution::account: 📈 Opened position side=Long price=41650.0 quantity=0.012013762817933333 allocation=500.3732213669233
+2026-04-24T22:09:13.441866Z  INFO crypto_bot::engine::runner: 🔒 Close signal rsi="52.99"
+2026-04-24T22:09:13.441887Z  INFO crypto_bot::execution::account: 📉 Closed position side=Long entry=41650.0 exit=41280.0 pnl="-4.45" balance="10003.02"
+2026-04-24T22:09:13.441931Z  INFO crypto_bot::engine::runner: 🔴 SHORT signal rsi="71.35" alloc="500.15"
+2026-04-24T22:09:13.441950Z  INFO crypto_bot::execution::account: 📈 Opened position side=Short price=42020.0 quantity=0.011902688404445302 allocation=500.15096675479157
+2026-04-24T22:09:13.442201Z  INFO crypto_bot::engine::runner: 🔒 Close signal rsi="48.38"
+2026-04-24T22:09:13.442223Z  INFO crypto_bot::execution::account: 📉 Closed position side=Short entry=42020.0 exit=42870.0 pnl="-10.12" balance="9992.90"
+2026-04-24T22:09:13.442342Z  INFO crypto_bot::engine::runner: Backtest complete
+2026-04-24T22:09:15.630983Z  INFO crypto_bot: Crypto Bot starting symbol=BTCUSDT
+2026-04-24T22:09:35.633066Z  INFO crypto_bot: Crypto Bot starting symbol=BTCUSDT
+2026-04-24T22:09:35.633146Z  INFO crypto_bot::engine::runner: Starting live paper trading symbol="BTCUSDT" interval="5m"
